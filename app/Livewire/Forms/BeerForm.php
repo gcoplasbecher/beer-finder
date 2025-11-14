@@ -60,7 +60,7 @@ class BeerForm extends Form
             'ibu' => 'required|numeric|min:0|max:200',
             'ebc' => 'required|numeric|min:0|max:100',
             'ph' => 'required|numeric|min:0|max:14',
-            'volume' => 'required|numeric|min:0|max:100',
+            'volume' => 'required|numeric|min:0|max:1000',
             'ingredients' => 'required|string|min:3|max:1000',
             'brewer_tips' => 'required|string|min:3|max:1000',
         ];
